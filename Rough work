@@ -1,0 +1,67 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
+from numpy import array
+from numpy import cos, sin
+
+import math
+
+import numpy as np
+
+#alpha = math.pi
+#beta = math.pi/2
+#
+#Vx = cos(alpha)* cos(beta)
+#Vy = sin(alpha)*cos(beta)
+#Vz = sin(beta)
+#
+#Vx = 2
+#Vy = 3
+#Vz = 4
+#
+#myVector = array([Vx, Vy, Vz])
+#
+#myMatrix = array([[Vx, Vy, Vz], [1,2,3]]) #giving values, positions
+#
+##print myVector + myMatrix
+#
+#def f(a):
+#    a = np.asarray(a)
+#    y = a**2 
+#    
+#    return y
+#    
+#print f(myVector)
+#
+#gamma, lamda, omega = 5., 5., 5.
+#
+#vector1 = array([[-gamma, 0, -4*lamda],[0, -gamma/2, omega], [lamda, -omega, -gamma/2]]) #* array(['x'], ['y'], ['z']) 
+#vector2 = array([-gamma, 0, 0]) 
+#print vector1, vector2
+
+#print 'Enter value for n'
+#n = input()
+#
+#x = np.arange(0., math.pi/2., 0.1)
+#
+#print x
+#print x[-1]
+#
+#y = np.linspace(0., math.pi/2., 16)
+#
+#print y
+#
+#print math.pi
+
+#print 'Enter value for n'
+##n = input()
+#y = np.linspace(0., math.pi/2., input())
+#print y
+
+print 'Enter value for n: '
+y = np.linspace(0., math.pi/2., input())
+print y
